@@ -4,7 +4,7 @@ Este repositorio contiene un archivo SVG editable del algoritmo clínico basado 
 El archivo puede visualizarse directamente en el navegador y editarse con herramientas como [Figma](https://figma.com) o [Vectr](https://vectr.com).
 
 ## Archivo principal
-- [`algoritmo.svg`](./algoritmo.svg)
+- [`AlgoritmoClinicoV6.svg`](./AlgoritmoClinicoV6.svg)
 
 ## Cómo editar
 1. Descarga el archivo `algoritmo.svg`.
