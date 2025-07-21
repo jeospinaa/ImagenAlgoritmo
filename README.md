@@ -5,6 +5,7 @@ El archivo puede visualizarse directamente en el navegador y editarse con herram
 
 ## Archivo principal
 - [`AlgoritmoClinicoV6.svg`](./AlgoritmoClinicoV6.svg)
+- [`AlgoritmoClinicoV7.svg`](./AlgoritmoClinicoV7.svg)
 
 ## Cómo editar
 1. Descarga el archivo `algoritmo.svg`.
