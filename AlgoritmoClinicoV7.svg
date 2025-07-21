@@ -1,0 +1,177 @@
+<svg viewBox="0 0 1400 1450" xmlns="http://www.w3.org/2000/svg">
+  <!-- Estilos -->
+  <defs>
+    <style>
+      .box { fill: white; stroke: #333; stroke-width: 2; rx: 10; ry: 10; }
+      .decision { fill: #E9F7EF; stroke: #333; stroke-width: 2; }
+      .eval { fill: #D6EAF8; stroke: #333; stroke-width: 2; rx: 10; ry: 10; }
+      .treatment { fill: #FCF3CF; stroke: #333; stroke-width: 2; rx: 10; ry: 10; }
+      .arrow { stroke: #333; stroke-width: 2; marker-end: url(#arrowhead); fill: none; }
+      .text { font-family: Arial, sans-serif; font-size: 14px; }
+      .title { font-family: Arial, sans-serif; font-size: 24px; font-weight: bold; }
+      .subtitle { font-family: Arial, sans-serif; font-size: 18px; font-weight: bold; }
+      .note { font-family: Arial, sans-serif; font-size: 12px; font-style: italic; }
+      .bold { font-weight: bold; }
+      .domain { font-size: 14px; font-weight: bold; }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333" />
+    </marker>
+  </defs>
+  
+  <!-- Título -->
+  <text x="700" y="40" text-anchor="middle" class="title">ALGORITMO CLÍNICO: DIFICULTADES ALIMENTARIAS EN PEDIATRÍA</text>
+  <text x="700" y="70" text-anchor="middle" class="subtitle">Enfoque Interdisciplinario basado en el modelo PFD</text>
+  
+  <!-- Paso 1: Evaluación Inicial -->
+  <rect x="550" y="100" width="300" height="120" class="eval" />
+  <text x="700" y="125" text-anchor="middle" class="subtitle">1. EVALUACIÓN INICIAL</text>
+  <text x="700" y="150" text-anchor="middle" class="text">• Historia clínica detallada</text>
+  <text x="700" y="170" text-anchor="middle" class="text">• Valoración antropométrica</text>
+  <text x="700" y="190" text-anchor="middle" class="text">• Observación directa de alimentación</text>
+  <text x="700" y="210" text-anchor="middle" class="text">• Evaluación del desarrollo</text>
+  
+  <!-- Flecha -->
+  <path d="M 700 220 L 700 260" class="arrow" />
+  
+  <!-- Paso 2: Detección Dominios Afectados -->
+  <rect x="500" y="260" width="400" height="180" class="box" />
+  <text x="700" y="285" text-anchor="middle" class="subtitle">2. DETECCIÓN DE DOMINIOS AFECTADOS</text>
+  <text x="700" y="310" text-anchor="middle" class="text">Presencia de alteración en uno o más dominios:</text>
+  
+  <rect x="520" y="325" width="170" height="30" class="eval" />
+  <text x="605" y="345" text-anchor="middle" class="domain">1. MÉDICO</text>
+  
+  <rect x="710" y="325" width="170" height="30" class="eval" />
+  <text x="795" y="345" text-anchor="middle" class="domain">2. NUTRICIONAL</text>
+  
+  <rect x="520" y="370" width="170" height="30" class="eval" />
+  <text x="605" y="390" text-anchor="middle" class="domain">3. HABILIDADES</text>
+  
+  <rect x="710" y="370" width="170" height="30" class="eval" />
+  <text x="795" y="390" text-anchor="middle" class="domain">4. PSICOSOCIAL</text>
+  
+  <text x="700" y="425" text-anchor="middle" class="note">Duración mínima: 2 semanas e impacto funcional</text>
+  
+  <!-- Flecha -->
+  <path d="M 700 440 L 700 480" class="arrow" />
+  
+  <!-- Paso 3: Signos de Alarma -->
+  <polygon points="700,480 800,540 700,600 600,540" class="decision" />
+  <text x="700" y="530" text-anchor="middle" class="subtitle">¿SIGNOS DE</text>
+  <text x="700" y="550" text-anchor="middle" class="subtitle">ALARMA?</text>
+  
+  <!-- Signos de Alarma: Sí -->
+  <path d="M 800 540 L 1050 540 L 1050 600" class="arrow" />
+  <text x="840" y="530" text-anchor="start" class="text bold">SÍ</text>
+  
+  <rect x="950" y="600" width="220" height="120" class="treatment" />
+  <text x="1060" y="625" text-anchor="middle" class="subtitle">SIGNOS DE ALARMA</text>
+  <text x="1060" y="645" text-anchor="middle" class="text">• Disfagia</text>
+  <text x="1060" y="665" text-anchor="middle" class="text">• Atragantamiento/Aspiración</text>
+  <text x="1060" y="685" text-anchor="middle" class="text">• Falla de medro</text>
+  <text x="1060" y="705" text-anchor="middle" class="text">• Dinámica familiar alterada</text>
+  
+  <!-- Flecha desde Signos de Alarma -->
+  <path d="M 1060 720 L 1060 750" class="arrow" />
+  
+  <rect x="950" y="750" width="220" height="60" class="eval" />
+  <text x="1060" y="775" text-anchor="middle" class="subtitle">DERIVACIÓN URGENTE</text>
+  <text x="1060" y="795" text-anchor="middle" class="text">Médico especialista</text>
+  
+  <!-- Signos de Alarma: No -->
+  <path d="M 700 600 L 700 640" class="arrow" />
+  <text x="710" y="620" text-anchor="start" class="text bold">NO</text>
+  
+  <!-- Paso 3: Intervención Multidisciplinaria -->
+  <rect x="100" y="640" width="800" height="240" class="box" />
+  <text x="500" y="665" text-anchor="middle" class="subtitle">3. INTERVENCIÓN MULTIDISCIPLINARIA</text>
+  
+  <!-- Involucrar equipo interdisciplinario -->
+  <rect x="120" y="685" width="240" height="180" class="eval" />
+  <text x="240" y="705" text-anchor="middle" class="subtitle">Involucrar a un Equipo</text>
+  <text x="240" y="725" text-anchor="middle" class="subtitle">Interdisciplinario</text>
+  <text x="240" y="750" text-anchor="middle" class="text">• Pediatría</text>
+  <text x="240" y="770" text-anchor="middle" class="text">• Nutrición pediátrica</text>
+  <text x="240" y="790" text-anchor="middle" class="text">• Gastroenterología pediátrica</text>
+  <text x="240" y="810" text-anchor="middle" class="text">• Terapia ocupacional</text>
+  <text x="240" y="830" text-anchor="middle" class="text">• Foniatría</text>
+  <text x="240" y="850" text-anchor="middle" class="text">• Salud mental</text>
+  
+  <!-- Signos de alarma -->
+  <rect x="380" y="685" width="240" height="180" class="eval" />
+  <text x="500" y="705" text-anchor="middle" class="subtitle">SIGNOS DE ALARMA</text>
+  <text x="500" y="730" text-anchor="middle" class="text">• Disfagia</text>
+  <text x="500" y="750" text-anchor="middle" class="text">• Atragantamiento/Aspiración</text>
+  <text x="500" y="770" text-anchor="middle" class="text">• Falla de medro</text>
+  <text x="500" y="790" text-anchor="middle" class="text">• Dinámica familiar alterada</text>
+  <text x="500" y="810" text-anchor="middle" class="text">• Derivación a médico</text>
+  <text x="500" y="830" text-anchor="middle" class="text">especialista</text>
+  
+  <!-- Clasificación por dominios -->
+  <rect x="640" y="685" width="240" height="180" class="eval" />
+  <text x="760" y="705" text-anchor="middle" class="subtitle">CLASIFICACIÓN</text>
+  <text x="760" y="725" text-anchor="middle" class="subtitle">POR DOMINIO</text>
+  <text x="760" y="755" text-anchor="middle" class="text">• MÉDICO</text>
+  <text x="760" y="775" text-anchor="middle" class="text">• NUTRICIONAL</text>
+  <text x="760" y="795" text-anchor="middle" class="text">• HABILIDADES DE</text>
+  <text x="760" y="815" text-anchor="middle" class="text">ALIMENTACIÓN</text>
+  <text x="760" y="835" text-anchor="middle" class="text">• PSICOSOCIAL</text>
+  
+  <!-- Flecha desde Intervención Multidisciplinaria -->
+  <path d="M 500 880 L 500 920" class="arrow" />
+  
+  <!-- Paso 4: Intervenciones Terapéuticas -->
+  <rect x="100" y="920" width="800" height="260" class="treatment" />
+  <text x="500" y="945" text-anchor="middle" class="subtitle">4. INTERVENCIONES TERAPÉUTICAS</text>
+  
+  <!-- Fila 1: 3 cajas centradas -->
+  <rect x="120" y="965" width="240" height="85" class="box" />
+  <text x="240" y="985" text-anchor="middle" class="text bold">TRATAMIENTO MÉDICO</text>
+  <text x="240" y="1005" text-anchor="middle" class="text">• Orientado a tratar</text>
+  <text x="240" y="1025" text-anchor="middle" class="text">patología identificada</text>
+  <text x="240" y="1045" text-anchor="middle" class="text">• Manejo sintomático</text>
+  
+  <rect x="380" y="965" width="240" height="85" class="box" />
+  <text x="500" y="985" text-anchor="middle" class="text bold">TRATAMIENTO NUTRICIONAL</text>
+  <text x="500" y="1000" text-anchor="middle" class="text">• Exposición gradual</text>
+  <text x="500" y="1015" text-anchor="middle" class="text">• Suplementación si precisa</text>
+  <text x="500" y="1030" text-anchor="middle" class="text">• Corrección déficit</text>
+  <text x="500" y="1045" text-anchor="middle" class="text">• Optimización nutricional</text>
+  
+  <rect x="640" y="965" width="240" height="85" class="box" />
+  <text x="760" y="980" text-anchor="middle" class="text bold">TRATAMIENTO</text>
+  <text x="760" y="995" text-anchor="middle" class="text bold">PSICOSOCIAL</text>
+  <text x="760" y="1010" text-anchor="middle" class="text">• Reducción de estrés</text>
+  <text x="760" y="1025" text-anchor="middle" class="text">y ansiedad</text>
+  <text x="760" y="1040" text-anchor="middle" class="text">• Apoyo psicológico</text>
+  
+  <!-- Fila 2: 2 cajas centradas -->
+  <rect x="250" y="1070" width="240" height="85" class="box" />
+  <text x="370" y="1085" text-anchor="middle" class="text bold">INTERVENCIÓN</text>
+  <text x="370" y="1100" text-anchor="middle" class="text bold">FAMILIAR</text>
+  <text x="370" y="1115" text-anchor="middle" class="text">• Orientación a cuidadores</text>
+  <text x="370" y="1130" text-anchor="middle" class="text">• Entorno sin presión</text>
+  <text x="370" y="1145" text-anchor="middle" class="text">ni distractores</text>
+  
+  <rect x="510" y="1070" width="240" height="85" class="box" />
+  <text x="630" y="1085" text-anchor="middle" class="text bold">TERAPIA OCUPACIONAL</text>
+  <text x="630" y="1100" text-anchor="middle" class="text bold">Y FONOAUDIOLOGÍA</text>
+  <text x="630" y="1115" text-anchor="middle" class="text">• Rehabilitación habilidades</text>
+  <text x="630" y="1130" text-anchor="middle" class="text">alimentarias</text>
+  <text x="630" y="1145" text-anchor="middle" class="text">• Mejora procesos sensorio-motores</text>
+  
+  <!-- Flecha hacia seguimiento -->
+  <path d="M 500 1180 L 500 1220" class="arrow" />
+  
+  <!-- Paso 5: Seguimiento y Monitoreo -->
+  <rect x="200" y="1220" width="600" height="180" class="eval" />
+  <text x="500" y="1245" text-anchor="middle" class="subtitle">5. SEGUIMIENTO Y MONITOREO</text>
+  <text x="500" y="1270" text-anchor="middle" class="text">• Monitoreo continuo y evaluación de eficacia terapéutica</text>
+  <text x="500" y="1290" text-anchor="middle" class="text">• Reevaluación integral cada 3-6 meses</text>
+  <text x="500" y="1310" text-anchor="middle" class="text">• Ajuste del plan de tratamiento según evolución</text>
+  <text x="500" y="1330" text-anchor="middle" class="text">• Seguimiento individualizado y modificación de estrategias</text>
+  <text x="500" y="1350" text-anchor="middle" class="text">• Evaluación de objetivos y dominios afectados</text>
+  <text x="500" y="1370" text-anchor="middle" class="text">• Coordinación interdisciplinaria continua</text>
+  
+</svg>
